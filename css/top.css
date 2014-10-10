@@ -37,6 +37,7 @@
 	font-size: 14px;
 	font-weight: bold;
 	border-radius: 6px;
+	color: #000;
 }
 .top .navigate li .active,.top .navigate li a:hover{
 	background: #13b085;
