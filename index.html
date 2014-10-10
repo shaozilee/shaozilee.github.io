@@ -3,6 +3,10 @@ layout: default
 title: shaozilee实验室：不定期发布报告!
 ---
 
+{%include top.html param="index" %}
+
+
+
 <ul>
 {% for post in site.posts %} 
 <li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
