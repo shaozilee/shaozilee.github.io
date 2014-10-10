@@ -11,7 +11,28 @@
 	height: 110px;
 	background: url("./img/logo.gif") no-repeat;
 }
+.top .logo{
+	background: #FFF ;
+	}
 
 .top .navigate{
 	float: left;
+	height: 110px;
+	line-height: 110px;
+}
+
+.top .navigate li{
+	float: left;
+	margin-left: 15px;
+}
+
+.top .navigate li a{
+	padding: 10 20px;
+	font-size: 14px;
+	font-weight: bold;
+	border-radius: 6px;
+}
+.top .navigate li .active,.top .navigate li a:hover{
+	background: #13b085;
+	color: #FFF;
 }
