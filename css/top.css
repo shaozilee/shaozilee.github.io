@@ -23,11 +23,11 @@
 
 .top .navigate li{
 	float: left;
-	margin-left: 15px;
+	margin-left: 20px;
 }
 
 .top .navigate li a{
-	padding: 10 20px;
+	padding: 10px 20px;
 	font-size: 14px;
 	font-weight: bold;
 	border-radius: 6px;
