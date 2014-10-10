@@ -29,3 +29,35 @@ ul{
 .clearfix:after {
     clear: both;
 }
+
+
+.footer{
+    float: left;
+    margin-top: 20px;
+    padding-top: 10px;
+    width: 100%;
+    height: 270px;
+    background-color: #fff;
+    background-image: url("img/color-border.gif");
+    background-repeat: repeat-x;
+}
+
+.footer .main{
+    width: 800px;
+    height: 200px;
+    margin: 0px auto;
+}
+
+.footer .main li{
+    float: left;
+    width:179px;
+    height: 100%;
+    padding:0px 10px;
+    border-right: 1px #454545 solid;
+}
+
+.footer .rights{
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
