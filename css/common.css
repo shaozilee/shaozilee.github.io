@@ -44,7 +44,7 @@ ul{
 
 .footer .main{
     width: 800px;
-    height: 200px;
+    height: 120px;
     margin: 0px auto;
 }
 
@@ -61,5 +61,5 @@ ul{
     line-height: 30px;
     text-align: center;
     color: #999;
-    font-size: 12px;
+    font-size: 14px;
 }
