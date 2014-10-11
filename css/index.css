@@ -6,7 +6,7 @@
 
 .content{
 	float: left;
-	width: 890px;
+	width: 880px;
 	height: 600px;
 
 }
@@ -14,7 +14,7 @@
 
 .funs{
 	float: left;
-	margin-left: 10px;
+	margin-left: 20px;
 	width: 300px;
 	height: 600px;
 }
