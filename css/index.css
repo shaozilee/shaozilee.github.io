@@ -31,6 +31,22 @@
 	border-radius: 4px;
 }
 
+.report p{
+	position: relative;
+	padding-left: 250px;
+}
+
+.report p img{
+	width: 200px;
+    height: 90px;
+    position: absolute;
+    border: 1px #f00 solid;
+    left: 0px;
+    top: 0px;
+}
+
+
+
 .categories{
 	float: left;
     width: 300px;
