@@ -39,7 +39,7 @@
 .top .navigate li a:hover{
 	color: #13b085;
 }
-.top .navigate li .active{
+.top .navigate li .active,.top .navigate li .active:hover{
 	background: #13b085;
 	color: #FFF;
 }
