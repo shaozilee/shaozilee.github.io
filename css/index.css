@@ -32,7 +32,30 @@
 }
 
 .categories{
-	width: 100%;
-	height: 300px;
+	float: left;
+    width: 300px;
+    height: 260px;
+    border-top: 5px #13b085 solid;
+    overflow: hidden;
 	margin-bottom: 10px;
+}
+
+.categories .list{
+    margin: 0 10px;
+    overflow: hidden;
+}
+.categories .list li{
+    margin-top: 10px;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow: hidden;
+}
+
+.categories .list a{
+   color: #37a;
+   text-decoration:none;
+}
+.categories .list a:hover{
+    color: #fff;
+    background-color: #37a;
 }
