@@ -40,6 +40,6 @@
 	background: #13b085;
 	color: #FFF;
 }
-.top .navigate li .active{
+.top .navigate li a:hover{
 	background: #f0f0f0;
 }
