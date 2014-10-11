@@ -33,6 +33,13 @@
 .report .title{
 	padding-left: 30px;
 }
+.report .title a{
+	color: #000;
+	font-weight: bold;
+}
+.report .title a:hover{
+	color: #666;
+}
 
 .report p{
 	position: relative;
