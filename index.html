@@ -12,7 +12,7 @@ title: 不定期发布报告!
 		<ul class="reports">
 		{% for post in site.posts %}
 		    <li class="report">
-		      <div><a href="{{ post.url }}">{{ post.title }}</a></div>
+		      <div class="title"><a href="{{ post.url }}">{{ post.title }}</a></div>
 		      {{ post.excerpt }}
 		    </li>
 		{% endfor %}

@@ -30,6 +30,10 @@
 	border-radius: 4px;
 }
 
+.report .title{
+	padding-left: 30px;
+}
+
 .report p{
 	position: relative;
 	padding-left: 270px;
