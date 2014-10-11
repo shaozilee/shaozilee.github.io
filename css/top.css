@@ -40,3 +40,6 @@
 	background: #13b085;
 	color: #FFF;
 }
+.top .navigate li .active{
+	background: #f0f0f0;
+}
