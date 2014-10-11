@@ -10,9 +10,12 @@ title: shaozilee实验室：不定期发布报告!
 <div class="main clearfix">
 	<div class="content">
 		<ul class="reports">
-			<li class="report">1</li>
-			<li class="report">2</li>
-			<li class="report">3</li>
+		{% for post in site.posts %}
+		    <li class="report">
+		      <a href="{{ post.url }}">{{ post.title }}</a><br>
+		      {{ post.excerpt }}
+		    </li>
+		{% endfor %}
 		</ul>
 	</div>
 	<div class="funs">
