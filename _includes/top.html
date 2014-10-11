@@ -4,11 +4,9 @@
 		<i class="logo"></i>
 
 		<ul class="navigate">
-			<li><a href="#" class="{% if include.param=='index' %}active{% endif %}">Home</a></li>
-			<li><a href="#" class="{% if include.param=='reports' %}active{% endif %}">Reports</a></li>
-			<li><a href="#" class="{% if include.param=='contact' %}active{% endif %}">Contact</a></li>
+			<li><a href="#" class="{% if include.param == 'index' %}active{% endif %}">Home</a></li>
+			<li><a href="#" class="{% if include.param == 'reports' %}active{% endif %}">Reports</a></li>
+			<li><a href="#" class="{% if include.param == 'contact' %}active{% endif %}">Contact</a></li>
 		</ul>
 	</div>
 </div>
-
-{{ include.param }}
