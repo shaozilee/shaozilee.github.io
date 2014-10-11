@@ -42,7 +42,7 @@
 }
 
 .categories .list{
-    margin: 0 10px;
+    margin: 0 20px;
     overflow: hidden;
 }
 .categories .list li{
@@ -53,7 +53,7 @@
 }
 
 .categories .list a{
-	font-size: 12px;
+	font-size: 14px;
    color: #37a;
    text-decoration:none;
 }
