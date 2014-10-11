@@ -32,14 +32,14 @@
 
 .report p{
 	position: relative;
-	padding-left: 210px;
+	padding-left: 250px;
 	height: 130px;
 	overflow: hidden;
 }
 
 .report p img{
-	width: 200px;
-    height: 90px;
+	width: 250px;
+    height: 130px;
     position: absolute;
     left: 0px;
     top: 0px;
