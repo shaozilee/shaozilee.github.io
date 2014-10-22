@@ -1,0 +1,27 @@
+
+.main{
+	width: 1200px;
+	margin: 20px auto;
+}
+
+.content{
+	float: left;
+	width: 880px;
+	margin: 0 auto;
+}
+
+.content .body{
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 6px;
+	min-height: 600px;
+}
+
+.content .body h1{
+	padding: 20px;
+	text-align: center;
+}
+
+.content .body  .write{
+	color: #999;
+}
