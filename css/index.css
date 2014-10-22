@@ -102,6 +102,10 @@
 	color: #fff;
 	background-color: #32c6ea;
 }
+.page-no{
+	color: #fff;
+	background-color: none;
+}
 
 .page-btn:hover{
 	background-color: #e0694f;

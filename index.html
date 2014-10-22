@@ -25,7 +25,7 @@ title: 不定期发布报告!
 		  {% if paginator.previous_page > 1%}
 		    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="btn page-btn previous">前一页</a>
 		  {% elsif  paginator.previous_page == 1 %}
-		  	<a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}" class="btn page-btn previous">前一页</a>
+		  	<a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}" class="btn page-no previous">前一页</a>
 		  {% else %}
 		    <span class="btn page-btn previous">前一页</span>
 		  {% endif %}
@@ -33,7 +33,7 @@ title: 不定期发布报告!
 		  {% if paginator.next_page %}
 		    <a href="/page{{ paginator.next_page }}" class="btn page-btn next">后一页</a>
 		  {% else %}
-		    <span class="btn page-btn next ">后一页</span>
+		    <span class="btn page-no next ">后一页</span>
 		  {% endif %}
 		</div>
 		
