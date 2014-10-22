@@ -93,3 +93,16 @@
     color: #fff;
     background-color: #37a;
 }
+
+.page_number{
+	padding:0px 20px;
+}
+
+.page-btn{
+	color: #fff;
+	background-color: #e0694f;
+}
+.page-btn:hover{
+	background-color: #e0694f;
+}
+
