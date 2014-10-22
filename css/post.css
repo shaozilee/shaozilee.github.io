@@ -10,17 +10,18 @@
 }
 
 .content .body{
-	padding: 20px;
+	padding: 30px;
 	background-color: #fff;
 	border-radius: 6px;
-	min-height: 600px;
+	min-height: 500px;
 }
 
 .content .body h1{
-	padding: 20px;
+	padding: 20px 0;
 	text-align: center;
 }
 
 .content .body  .write{
-	color: #999;
+	color: #555;
+	font-size: 14px;
 }
