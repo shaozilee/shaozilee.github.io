@@ -14,7 +14,7 @@ title: 不定期发布报告!
 		    <li class="report">
 		      <div class="title">
 		      	<a href="{{ post.url }}">{{ post.title }}</a>
-		      	<span class="date">{{ post.date | date_to_long_string }}</span>
+		      	<span class="date">{{ post.date | date: "%F %R" }}</span>
 		      </div>
 		      {{ post.excerpt }}
 		    </li>

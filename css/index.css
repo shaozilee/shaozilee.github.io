@@ -40,6 +40,11 @@
 .report .title a:hover{
 	color: #666;
 }
+.report .title .date{
+	float: right;
+	color: #999;
+	padding-right: 20px;
+}
 
 .report p{
 	position: relative;
