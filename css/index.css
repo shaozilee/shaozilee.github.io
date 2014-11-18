@@ -47,6 +47,9 @@
 	font-size: 14px;
 	color: #13b085;
 }
+.report .bottom-bar .read-btn:hover{
+	text-decoration: underline;
+}
 
 .report .bottom-bar .date{
 	float: right;
