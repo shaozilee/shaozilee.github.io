@@ -40,9 +40,18 @@
 .report .title a:hover{
 	color: #666;
 }
-.report .title .date{
+.report .bottom-bar{
+}
+.report .bottom-bar .read-btn{
+	float: right;
+	font-size: 14px;
+	color: #13b085;
+}
+
+.report .bottom-bar .date{
 	float: right;
 	color: #999;
+	padding-left: 20px;
 	padding-right: 20px;
 }
 
