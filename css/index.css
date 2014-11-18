@@ -49,13 +49,13 @@
 }
 .report .bottom-bar .read-btn:hover{
 	text-decoration: underline;
+	margin-right: 20px;
 }
 
 .report .bottom-bar .date{
 	float: right;
 	color: #999;
-	padding-left: 20px;
-	padding-right: 20px;
+	margin-right: 20px;
 }
 
 .report p{
