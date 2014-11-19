@@ -23,6 +23,23 @@
 	text-align: center;
 }
 
+.content .body .author{
+	padding: 20px 50px;
+	text-align: right;
+}
+.content .body .author .name{
+	padding-right: 20px;
+	color: #999;
+	text-decoration: underline;
+}
+.content .body .author .name:hover{
+	text-decoration:none;
+}
+.content .body .author .date{
+	color: #ccc;
+}
+
+
 .content .body  .write{
 	font-size: 14px;
 	line-height: 2;
@@ -37,3 +54,16 @@
 .content .body .comment{
 	padding-top: 30px;
 }
+
+.content .body  .write p img:first-child{
+	display: none;
+}
+
+
+
+
+
+
+
+
+

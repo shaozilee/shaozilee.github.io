@@ -4,3 +4,4 @@ paginate_path: "page:num"
 auto: true
 permalink: /:year/:month-:day/:title.html
 excerpt_separator: "<!-- ## -->"
+author: "shaozilee"
