@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 不定期发布报告!
+comments: true
 ---
 
 {%include top.html param="index" %}
@@ -43,11 +44,9 @@ title: 不定期发布报告!
 		
 	</div>
 	<div class="funs">
-		<div class="categories">
+		<div class="comment">
                 <div class="list">
-                    <ul>
-                        <li><a href="#">shaozilee实验室马上就要开门，期待</a></li>
-                    </ul>
+                        {%include disqus.html%}
                 </div>
 		</div>
 

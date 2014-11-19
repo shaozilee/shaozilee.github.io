@@ -33,3 +33,7 @@
 .content .body  .write p{
 	text-indent: 2em;
 }
+
+.content .body .comment{
+	padding-top: 30px;
+}
