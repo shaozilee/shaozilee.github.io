@@ -1,0 +1,7 @@
+---
+layout: post
+title: Markdown标记语法规则Demo
+---
+![]({{ site.url }}/images/post/markdown-rule.jpg)
+此文只是用来测试Markdown语法规则以及各标记对应的显示效果，目前只有常用写作标签Demo，对于一些不怎么常用的后续慢慢补充，如果你对Markdown的写作有更多的心得或者经验，请留言或者发e-mail给我，甚是感激。
+<!-- ## -->
