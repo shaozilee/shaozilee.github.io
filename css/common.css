@@ -66,3 +66,21 @@ ul{
 }
 
 
+code{
+    padding: 3px 5px;
+    border-radius: 6px;
+    background-color: #efefef;
+}
+
+.highlight pre{
+    border-radius: 6px;
+    padding: 0 20px;
+    background-color: #efefef;
+} 
+.highlight pre code{
+    padding: 0;
+    border-radius: none;
+    background-color: none;
+}
+
+

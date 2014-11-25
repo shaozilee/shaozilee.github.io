@@ -2,6 +2,10 @@ baseurl: /
 paginate: 6
 paginate_path: "page:num"
 auto: true
+pygments: true
+markdown: redcarpet
+redcarpet:
+    extensions: ["fenced_code_blocks", "autolink", "tables", "strikethrough"]
 permalink: /:year/:month-:day/:title.html
 excerpt_separator: "<!-- ## -->"
 author: "shaozilee"
