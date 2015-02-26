@@ -34,7 +34,7 @@ XXXXXXXXX第二段XXXXXXXXXXXXXX
 XXXXXXXXX第二段XXXXXXXXXXXXXX
 
    
-   
+
    
 ##标题
 ------------------------------------
@@ -216,6 +216,13 @@ PS：利用Markdown的图片插入规则不能调整图片显示的宽度和高�
 > Back to the first level.
 
 PS：此处左边的绿色条是我自定义blockquote>p的左边框样式，默认只有引用层级，没有任何区分效果。
+
+##特殊符号
+---
+用"\"来转义，表示文本中的markdown符号
+
+`下面这句话包含\*字符`   
+下面这句话包含\*字符
 
 
 
