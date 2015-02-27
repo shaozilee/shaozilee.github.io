@@ -147,6 +147,13 @@ Markdown 支持两种形式的链接语法： 行内式和参考式两种形式�
 
 [1]: http://www.shaozilee.com/
 [2]: /contact.html
+###隐式链接：
+```
+<http://www.shaozilee.com/>
+```
+显示效果：
+<http://www.shaozilee.com/>
+
 
 
 ##强调
