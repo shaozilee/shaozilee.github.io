@@ -148,6 +148,7 @@ Markdown 支持两种形式的链接语法： 行内式和参考式两种形式�
 [1]: http://www.shaozilee.com/
 [2]: /contact.html
 ###隐式链接：
+指没有具体连接的文字，直接以连接地址作为显示文字
 ```
 <http://www.shaozilee.com/>
 ```
