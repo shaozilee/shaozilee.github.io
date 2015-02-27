@@ -25,8 +25,12 @@ title: unix&linux操作系统族谱
 
 ---
 ##参考资料
-<http://commons.wikimedia.org/wiki/File:Unix_timeline.en.svg?uselang=zh>   
+<http://commons.wikimedia.org/wiki/File:Unix_timeline.en.svg?uselang=zh>
+
+<http://zh.wikipedia.org/wiki/%E8%89%BE%E4%BC%A6%C2%B7%E5%9B%BE%E7%81%B5>
+
 <http://zh.wikipedia.org/wiki/Linux>   
+
 
 
 
