@@ -80,6 +80,24 @@
 	border-left:4px #13b085 solid;
 }
 
+.announce{
+	padding: 10px;
+	height: 100px;
+	border: 4px #DDE9ED solid;
+	border-radius: 10px;
+	background: #0FAE88;
+}
+
+.announce ul{
+	list-style: square;
+	padding-left:30px;
+	color: #FFFFFF;
+	font-size: 14px;
+}
+
+.announce ul li{
+	padding-top: 10px;
+}
 
 
 
