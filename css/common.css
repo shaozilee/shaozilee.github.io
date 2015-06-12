@@ -43,18 +43,18 @@ ul{
     background-repeat: repeat-x;
 }
 
-.footer .main{
+.footer .fmain{
     width: 800px;
     height: 120px;
     margin: 0px auto;
 }
 
-.footer .main li{
+.footer .fmain li{
     float: left;
-    width:179px;
-    height: 100%;
-    padding:0px 10px;
-    border-right: 1px #454545 solid;
+    width:100px;
+    height: 60px;
+    padding:0px;
+    overflow: hidden;
 }
 
 .footer .rights{
