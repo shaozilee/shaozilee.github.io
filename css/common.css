@@ -53,8 +53,9 @@ ul{
     float: left;
     width:100px;
     height: 60px;
-    padding:0px;
+    padding:0px 10px 0 0;
     overflow: hidden;
+    border-radius: 10px;
 }
 
 .footer .rights{
