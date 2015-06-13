@@ -59,6 +59,13 @@ ul{
     border-radius: 10px;
 }
 
+.footer .fmain li img{
+    width: 100px;
+    height: 60px;
+    border: none;
+}
+
+
 .footer .rights{
     height: 30px;
     line-height: 30px;
