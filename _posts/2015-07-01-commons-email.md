@@ -27,21 +27,21 @@ title: commons-email给你的网站添加邮件发送功能
 ##先准备需要的环境
 ------------------------------------
 commons-email 1.4,
-[commons-email.jar](http://mirrors.cnnic.cn/apache//commons/email/binaries/commons-email-1.4-bin.zip)
+【[下载](http://mirrors.cnnic.cn/apache//commons/email/binaries/commons-email-1.4-bin.zip)】
 
 JDK需要 1.5+,
-[JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+【[访问](http://www.oracle.com/technetwork/java/javase/downloads/index.html)】
 
 JavaMail 1.5.4,注意JavaMail需要JAF支持，最低版本1.0.2，推荐用最新版JAF，JAF1.1被包含在JDK1.6，JAR1.1.1被包含在JDK1.60_10+,
 所以如果用的JDK低于1.6那么需要单独下载JAF（自己google吧），其他情况不用下载，只管用就可以了，我的JDK1.7就不用再单独下载JAF了。
-[javax.mail.jar](http://java.net/projects/javamail/downloads/download/javax.mail.jar)
+【[下载](http://java.net/projects/javamail/downloads/download/javax.mail.jar)】
 
 
-***Demo：[Main.java](https://github.com/shaozilee/shaozilee.github.io/tree/master/test/commons-email/Main.java)***
+***Demo：【[Main.java](https://github.com/shaozilee/shaozilee.github.io/tree/master/test/commons-email/Main.java)】***
 
 ##发送一个简单文本的邮件
 ```java
-    private static void sendSimpleEmal() throws EmailException {
+    private static void sendSimpleEmail() throws EmailException {
         Date date = new Date();
         Email email = new SimpleEmail();
         init(email);
@@ -58,7 +58,8 @@ JavaMail 1.5.4,注意JavaMail需要JAF支持，最低版本1.0.2，推荐用最�
 
 ```
 
-console：sendSimpleEmal成功!1331
+***console：sendSimpleEmal成功!1331***
+
 1331为发布成功所消耗的时长单位毫秒，本次测试为阿里云企业邮箱SMTP测试，之前测试过hotmail的SMTP的TLS通道发送，耗时达到20秒以上
 
 ![]({{ site.url }}/images/post/commons-email-simple.jpg)
@@ -87,7 +88,7 @@ console：sendSimpleEmal成功!1331
 
 
 ```
-console：sendMultiPartEmail成功!671
+***console：sendMultiPartEmail成功!671***
 
 ![]({{ site.url }}/images/post/commons-email-multi.jpg)
 
@@ -110,7 +111,7 @@ console：sendMultiPartEmail成功!671
 
 
 ```
-console：sendHtmlEmail成功!1188
+***console：sendHtmlEmail成功!1188***
 
 ![]({{ site.url }}/images/post/commons-email-html.jpg)
 
@@ -135,7 +136,7 @@ console：sendHtmlEmail成功!1188
     }
 
 ```
-console：sendImageHtmlEmail成功!1633
+***console：sendImageHtmlEmail成功!1633***
 
 ![]({{ site.url }}/images/post/commons-email-image.jpg)
 

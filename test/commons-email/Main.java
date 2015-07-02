@@ -21,7 +21,7 @@ public class Main {
 
     public static void main(String[] args){
         try {
-            sendSimpleEmal();
+            sendSimpleEmail();
             sendMultiPartEmail();
             sendHtmlEmail();
             sendImageHtmlEmail();
@@ -30,7 +30,7 @@ public class Main {
         }
     }
 
-    private static void sendSimpleEmal() throws EmailException {
+    private static void sendSimpleEmail() throws EmailException {
         Date date = new Date();
         Email email = new SimpleEmail();
         init(email);
