@@ -10,12 +10,11 @@
 {%include top.html%}
 <div class="main clearfix">
 	<div class="content">
-		<div class="body">
+		<div class="body" id="J-body">
 			<h1>{{ page.title }}</h1>
 			<div class="author">
 				<a class="name" href="{{site.url}}/contact.html" target="_blank">{{ site.author}}</a>
 				<span class="date">{{ page.date | date: "%F" }}</span>
-				{%include jiathis.html%}
 			</div>
 			<div class="write">
 				{{ content }}
@@ -34,5 +33,6 @@
 	</div>
 </div>
 {%include footer.html%}
+{%include jiathis.html%}
 </body>
 </html>
