@@ -163,4 +163,15 @@
 
 
 
+.contact{
+	width: 400px;
+	height: 240px;
+	float: left;
+	margin: 100px auto;
+	background: #FFF;
+	border-radius: 6px;
+	overflow: hidden;
+	padding: 20px;
+	line-height: 30px;
+}
 
