@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+
+
+
+<h4>问题重现：</h4>
+<iframe name="upframe1" style="display: none;"></iframe>
+<div>
+  <a href="javascript:void(0)" id="J-before-btn">选择文件</a>
+  <form action="upload.html" id="J-before-form"  method="post" enctype="multipart/form-data" target="upframe1">
+    <input type="file" name="file1" id="J-before-file" style="display:none;">
+  </form>
+</div>
+<hr/>
+<h4>问题解决：</h4>
+<iframe name="upframe2" style="display: none;"></iframe>
+<div style="position:relative;">
+  <a href="javascript:void(0)" id="J-after-btn">选择文件</a>
+  <form action="upload.html" id="J-after-form"  method="post" enctype="multipart/form-data" target="upframe2"
+        style="position:absolute;left:0;top:0;">
+    <input type="file" name="file1" id="J-after-file" style="width:70px;height:24px;border:1px #F00 solid;overflow:hidden;filter: alpha(opacity=50);cursor:pointer;">
+  </form>
+</div>
+
+
+
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript">
+  $(function(){
+    $("#J-before-btn").click(function(){
+      $("#J-before-file").change(function(){
+        alert("start upload1");
+        document.getElementById("J-before-form").submit();
+      });
+
+      $("#J-before-file").click();
+    });
+
+    $("#J-after-file").change(function(){
+      alert("start upload2");
+      document.getElementById("J-after-form").submit();
+    });
+  });
+
+</script>
+</body>
+</html>
