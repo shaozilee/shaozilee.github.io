@@ -2,7 +2,7 @@
 layout: post
 title: node-mongodb-native驱动模块连接mongodb报no primary server available
 ---
-<img src="{{ site.url }}/images/post/file-ie8.jpg" class="excerpt">
+<img src="{{ site.url }}/images/post/no-primary-server.jpg" class="excerpt">
 最近开发公司的系统，遇到nodejs用node-mongodb-native连接mongo replset集群，nodejs日志报“no primary server available”错误，后来仔细推敲想明白了其中的原因，问题已经解决，所以如果你也遇上这个问题，请看详细报告
 
 <!-- ## -->
