@@ -19,8 +19,9 @@ title: node-mongodb-native驱动模块连接mongodb报no primary server availabl
 
 ##解决问题
 上面分析了问题产生的原因，好了，那么我们就要从mongodb的连接的数量上进行着手
-1.增加mongodb的最大文件访问数提升socket的连接上限(linux ulimit)
-2.减少nodejs的mongodb连接池的大小(url maxSize)
+
+1. 增加mongodb的最大文件访问数提升socket的连接上限(linux ulimit)
+2. 减少nodejs的mongodb连接池的大小(url maxSize)
 
 以上两种方式均可以解决这个问题，依据你实际情况选择。
 
