@@ -4,8 +4,8 @@ title: commons-email给你的网站添加邮件发送功能
 ---
 <img src="{{ site.url }}/images/post/commons-email.jpg" class="excerpt">
 我的网站上线试运行，很多数据或者通知都需要邮件发送，还有就是用户的注册邮箱真实激活验证也用到了发送邮件功能。所以就一起把发送邮件的报告写了吧，希望大家也能参考下。
-<!-- ## -->
 
+<!-- ## -->
 ![]({{ site.url }}/images/post/commons-email.jpg)
 
 首先java环境下开发发送邮件的功能，大家一定会想到javaMail，好吧，我也是第一个先想到这个，不过我我觉得apache下貌似也有mail的jar包支持，
