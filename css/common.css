@@ -96,4 +96,15 @@ img{
     border:none;
 }
 
+.tag-zhuan{
+    padding: 3px 10px;
+    background: #a47703;
+    border-radius: 8px;
+}
 
+.tag-zhuan:before{
+    content: "转";
+    font-size:14px;
+    font-weight: bold;
+    color: #FFF;
+}

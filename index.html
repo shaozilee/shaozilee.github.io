@@ -12,12 +12,14 @@ title: 不定期发布报告!
 		<ul class="reports">
 		{% for post in paginator.posts %}
 		    <li class="report">
-		      <div class="title">
-		      	<a href="{{ post.url }}" target="_blank">{{ post.title }}</a>
+		      <div class="title ">
+		      	{% if post.href %}<span class="tag-zhuan"></span>{% endif %}
+				<a href="{% if post.href %} {{post.href}} {% else %} {{post.url}} {% endif %}" target="_blank">{{ post.title }}</a>
 		      </div>
 		      {{ post.excerpt }}
 		      <div class="bottom-bar clearfix">
-		      	<a class="read-btn" target="_blank" href="{{ post.url }}">阅读全文</a>
+				<a class="read-btn" target="_blank" href="{% if post.href %} {{post.href}} {% else %} {{post.url}} {% endif %}">阅读全文</a>
+		      
 		      	<span class="date">{{ post.date | date: "%F" }}</span>
 		      </div>
 		    </li>
@@ -50,7 +52,7 @@ title: 不定期发布报告!
 
 		<div class="ads">
 			<a href="http://www.pizzahut.com.cn/" target="_blank">
-				<img src="{{ site.url }}/images/bishengke.jpg">
+				
 			</a>
 		</div>
 	</div>
